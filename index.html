@@ -1,1 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevSistemas - Construindo o Futuro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <header>
+        <div class="container">
+            <div class="logo">Dev<span>Sistemas</span></div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">O que é?</a></li>
+                    <li><a href="#ciclo">Ciclo de Vida</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <h1>Transformando Ideias em <br><span>Linhas de Código</span></h1>
+            <p>O desenvolvimento de sistemas é a arte de planejar, construir e manter softwares que movem o mundo digital.</p>
+            <a href="#ciclo" class="btn">Explorar Etapas</a>
+        </div>
+    </section>
+
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <h2>O que é Desenvolvimento de Sistemas?</h2>
+            <p>É um processo estruturado que envolve a criação de softwares, aplicativos e plataformas web para resolver problemas específicos, otimizar processos ou criar novas oportunidades de negócios. Vai muito além de apenas digitar código; envolve entender o usuário, desenhar arquiteturas seguras e garantir a escalabilidade da solução.</p>
+        </div>
+    </section>
+
+    <section id="ciclo" class="ciclo">
+        <div class="container">
+            <h2>O Ciclo de Vida do Desenvolvimento</h2>
+            <p class="subtitle">Clique em uma das etapas abaixo para entender como um sistema ganha vida:</p>
+            
+            <div class="tabs-container">
+                <div class="tabs-buttons">
+                    <button class="tab-btn active" data-target="analise">1. Análise</button>
+                    <button class="tab-btn" data-target="design">2. Design</button>
+                    <button class="tab-btn" data-target="codificacao">3. Codificação</button>
+                    <button class="tab-btn" data-target="testes">4. Testes</button>
+                    <button class="tab-btn" data-target="implantacao">5. Implantação</button>
+                </div>
+
+                <div class="tabs-content">
+                    <div id="analise" class="tab-panel active">
+                        <h3>Análise de Requisitos</h3>
+                        <p>O momento de entender a dor do cliente. Aqui são levantadas as necessidades do sistema, o escopo do projeto, o público-alvo e as regras de negócio que o software deve seguir.</p>
+                    </div>
+                    <div id="design" class="tab-panel">
+                        <h3>Design & Arquitetura</h3>
+                        <p>Fase de planejamento visual e estrutural. Define-se a interface do usuário (UI/UX), a modelagem do banco de dados e a arquitetura técnica (tecnologias, servidores e segurança).</p>
+                    </div>
+                    <div id="codificacao" class="tab-panel">
+                        <h3>Codificação (Desenvolvimento)</h3>
+                        <p>A hora da magia! Os desenvolvedores colocam a mão na massa, escrevendo o código limpo, eficiente e escalável usando linguagens como JavaScript, Python, Java, etc.</p>
+                    </div>
+                    <div id="testes" class="tab-panel">
+                        <h3>Testes e Qualidade (QA)</h3>
+                        <p>Antes de ir para o ar, o sistema passa por rigorosas validações. São procurados bugs, falhas de segurança e problemas de performance para garantir uma experiência perfeita.</p>
+                    </div>
+                    <div id="implantacao" class="tab-panel">
+                        <h3>Implantação e Manutenção</h3>
+                        <p>O sistema é lançado no ambiente de produção (servidores/nuvem) para os usuários reais. Depois, o ciclo continua com atualizações, correções e novas melhorias.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 DevSistemas. Desenvolvido com HTML, CSS e JavaScript puro.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
